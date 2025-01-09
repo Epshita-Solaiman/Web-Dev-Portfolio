@@ -6,7 +6,12 @@
     font-variation-settings:
       "wdth" 100;
   }
+  /* shared styles */
+  .second-bg{
+    background-color: #FFF8F3;
+}
   /* Nav Styles */
+
   nav{
     display: flex;
     justify-content: space-between;
@@ -75,3 +80,51 @@
     font-size: 15px;
     font-weight: 400px;
 }
+/* About styles */
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+ font-size: 18px;
+ font-weight: 600px;
+ color: #757575;
+
+}
+.item-description{
+ font-size: 20px;
+ font-weight: bold;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+main{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 130px;
+}
+
+.job-description{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.job-info{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #757575;
+}
+.about-job{
+    text-align: center;
+    margin: 0px 348px;
+    
+}
+
